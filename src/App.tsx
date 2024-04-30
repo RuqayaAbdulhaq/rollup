@@ -1,4 +1,4 @@
-import {createSignal, Show, onCleanup} from "solid-js"
+import {createSignal, Show} from "solid-js"
 import {Motion, Presence} from "solid-motionone"
 import './App.css'
 
