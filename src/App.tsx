@@ -18,6 +18,7 @@ function App() {
   return (
     <div class="w-[100vw] flex justify-center">
       <div class="card flex flex-col gap-[24px] items-center">
+        <h1>Increment to simulate data updated from the server</h1>
         <div class="max-h-[20px] overflow-hidden relative">
           <Presence exitBeforeEnter>
             <Show when={toggle()}>
